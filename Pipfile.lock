@@ -5,15 +5,15 @@
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "0",
+            "implementation_version": "3.7.0",
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
             "platform_release": "18.2.0",
             "platform_system": "Darwin",
             "platform_version": "Darwin Kernel Version 18.2.0: Mon Nov 12 20:24:46 PST 2018; root:xnu-4903.231.4~2/RELEASE_X86_64",
-            "python_full_version": "2.7.10",
-            "python_version": "2.7",
+            "python_full_version": "3.7.0",
+            "python_version": "3.7",
             "sys_platform": "darwin"
         },
         "pipfile-spec": 6,
@@ -90,10 +90,10 @@
         },
         "django": {
             "hashes": [
-                "sha256:7ee7d93d407f082e3849c8d10da50ff5b488af37ed1b0066a22dee5f2709ed16",
-                "sha256:73cca1dac154e749b39cc91a54dc876109eb0512a5c6804986495305047066a5"
+                "sha256:a32c22af23634e1d11425574dce756098e015a165be02e4690179889b207c7a8",
+                "sha256:d6393918da830530a9516bbbcbf7f1214c3d733738779f06b0f649f49cc698c3"
             ],
-            "version": "==1.11.18"
+            "version": "==2.1.5"
         },
         "django-extensions": {
             "hashes": [
@@ -104,10 +104,10 @@
         },
         "django-filter": {
             "hashes": [
-                "sha256:86c3925020c27d072cdae7b828aaa5d165c2032a629abbe3c3a1be1edae61c58",
-                "sha256:6f4e4bc1a11151178520567b50320e5c32f8edb552139d93ea3e30613b886f56"
+                "sha256:a3014de317bef0cd43075a0f08dfa1d319a7ccc5733c3901fb860da70b0dda68",
+                "sha256:3dafb7d2810790498895c22a1f31b2375795910680ac9c1432821cbedb1e176d"
             ],
-            "version": "==2.0.0"
+            "version": "==2.1.0"
         },
         "django-filters": {
             "hashes": [
@@ -218,7 +218,7 @@
                 "sha256:5887121d7f7df3603bca2f710e7219f3eca0eb69e0b7cc6e0a022e155ac931a7",
                 "sha256:25199318e8cc3c25dcb45cbe084cc061051336d5a9ea2a12448d3d8cb748f742"
             ],
-            "markers": "python_version < '3.4'",
+            "markers": "python_version == '2.7' or python_version == '3.3'",
             "version": "==2.3.3"
         },
         "pbr": {

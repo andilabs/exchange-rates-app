@@ -48,6 +48,12 @@ install packages by
 
     pipenv install
 
+run migrations
+==============
+
+    python manage.py migrate
+
+
 scrape currencies from ECB
 ==========================
 
