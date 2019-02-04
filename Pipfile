@@ -1,0 +1,30 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[dev-packages]
+
+
+
+[packages]
+
+django = "*"
+djangorestframework = "*"
+requests = "*"
+"iso4217" = "*"
+django-extensions = "*"
+ipdb = "*"
+django-filters = "*"
+django-filter = "*"
+pytest = "*"
+factory-boy = "*"
+pytest-django = "*"
+responses = "*"
+
+
+[requires]
+
+python_version = "3.7"
