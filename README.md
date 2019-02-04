@@ -29,7 +29,7 @@ HOW TO RUN IT
 
 OS X install:
 
-    hombrew install python3
+    brew install python3
 
 using hombrew python and pipenv may cause problems when locale not set, so please export:
 
